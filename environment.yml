@@ -1,0 +1,12 @@
+name: Dash-sample
+channels:
+  - https://conda.atoti.io
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8
+  - pandas
+  - sqlalchemy
+  - psycopg2
+  - dash
+prefix: /Users/marinelafargue/anaconda3/envs/Dash-sample
