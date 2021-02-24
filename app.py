@@ -12,7 +12,7 @@ from dash.dependencies import Input, Output
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
-
+server = app.server
 conn = create_engine(f'postgresql://{user}:{password}@{host}/{name}')
 df = pd.read_sql(request, conn)
 
