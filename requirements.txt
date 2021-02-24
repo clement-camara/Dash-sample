@@ -27,7 +27,7 @@ jinja2==2.11.3
 # llvm-openmp==11.0.1
 markupsafe==1.1.1
 # ncurses==6.2
-numpy==1.20.1
+# numpy==1.20.1
 # openssl==1.1.1j
 pandas==1.2.2
 pip==21.0.1
