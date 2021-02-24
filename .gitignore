@@ -296,5 +296,3 @@ $RECYCLE.BIN/
 # End of https://www.toptal.com/developers/gitignore/api/python,git,flask,macos,linux,windows
 /config.py
 
-*.pyc
-.DS_Store
